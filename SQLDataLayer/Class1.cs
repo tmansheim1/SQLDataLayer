@@ -12,7 +12,7 @@ namespace SQLDataLayer
         public SQLConn ()
         {
             conn = new SqlConnection ();
-            conn.ConnectionString = "Server=sql.cs.luc.edu;uid=tmansheim;pwd=p40901";
+            conn.ConnectionString = "Server=sql.cs.luc.edu;uid=;pwd=";
             conn.Open ();
 
         }
